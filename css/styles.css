@@ -9,12 +9,14 @@
 
 .verhalen {
     display: block;
-    font-size: 20px;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
-    width: 200;
-    padding: 0px;
+    position: center;
+    padding-left:35%;
+    padding-right: 35%;
+    font-size: 25px;
+    font-size: 3vw;
 }
 
 h2{
@@ -36,8 +38,8 @@ hr {
 
 
 div {
-    background-color: azure;
-    background-image: url(Imagesnurks/boek.jpg);
+    background-color: white;
+    background-image: url(images/1x/boek.jpg);
     background-position: center;
     background-size:cover;
     margin-top: 100px;
@@ -64,4 +66,13 @@ nav li a {
     margin-left: -10px;
     text-decoration: none;
     text-decoration-color: black;
+}
+
+header {
+    margin-top: 0;
+    transition: 500ms;
+}
+
+header.show-form {
+    margin-top: -4rem;
 }
